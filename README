@@ -1,0 +1,45 @@
+LAUNCHING SOON
+==============
+
+A simple KohanaPHP module that creates a launching soon page for your in 
+development website, provides a mechanism to collect email addresses that 
+can be emailed when you launch your website.
+
+INSTALLATION
+============
+
+Copy contents of this respository to your modules folder, and activate the 
+module in your KohanaPHP config file.
+
+Run the SQL in the sql/launchingsoon.sql file to create the user registration 
+database table.
+
+CUSTOMIZATION
+=============
+
+The bundled views can be easily tailored to your needs, via the 
+launchingsoon.php config file.  The following settings can be overridden.
+
+$config['title']
+
+The title of the website
+
+$config['tagline']
+
+Website tag line
+
+$config['intro']
+
+Introductory text
+
+$config['email_only']
+
+Launching soon collects email address by default but can also be setup 
+to collect first name, and last name of the user.
+
+$config['success']
+
+The message display to the user when they successfully subscribe for 
+notification of your launch.
+
+Further customization can be achieved by creating your own view files.
