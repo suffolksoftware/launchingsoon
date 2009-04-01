@@ -14,6 +14,10 @@ module in your KohanaPHP config file.
 Run the SQL in the sql/launchingsoon.sql file to create the user registration 
 database table.
 
+Update your routes.php file to access the launching soon module:
+$config['_default'] = 'launchingsoon';
+
+
 CUSTOMIZATION
 =============
 
